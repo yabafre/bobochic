@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=NTR&display=swap');
+
+*{
+  font-family: "Jost", sans-serif;
+}
+
 main {
   position: absolute;
-  width: 1366px;
-  left: 25px;
+  width: auto;
   top: 0.13px;
+  margin: 77px 77px;
 
   /* Gray/0-default */
-
   background: #ffffff;
 }
+
+.collab {
+  position: absolute;
+  width: auto;
+  left: 25%;
+  top: 15px;
+  /* Gray/0-default */
+  background: #ffffff;
+}
+.collab p{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.collab span{
+  position: static;
+  width: 24px;
+  height: 64px;
+  left: 281px;
+  top: 0px;
+  font-family: "NTR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 64px;
+  margin: 10px 41px;
+}
+.animate{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate img{
+  position: absolute;
+  height: 303px;
+  width: 95%;
+  align-items: center;
+  top: 162.86px;
+  border-radius: 10px;
+}
+
+.com {
+  position: absolute;
+  top: 252.86px;
+  
+}
+
+.com h1{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 39px;
+  line-height: 48px;
+  text-align: center;
+}
+.com h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
