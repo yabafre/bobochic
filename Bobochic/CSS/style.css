@@ -1,0 +1,10 @@
+main {
+  position: absolute;
+  width: 1366px;
+  left: 25px;
+  top: 0.13px;
+
+  /* Gray/0-default */
+
+  background: #ffffff;
+}
