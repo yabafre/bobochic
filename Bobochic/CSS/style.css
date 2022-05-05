@@ -1,77 +1,167 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=NTR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=NTR&family=Noto+Serif+KR:wght@900&display=swap');
 
-*{
+* {
   font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 main {
-  position: absolute;
-  width: auto;
-  top: 0.13px;
   margin: 77px 77px;
-
   /* Gray/0-default */
   background: #ffffff;
 }
-
+span{
+  font-weight: 600;
+}
+.premier {
+  margin-bottom: 38px;
+}
 .collab {
-  position: absolute;
-  width: auto;
-  left: 25%;
   top: 15px;
-  /* Gray/0-default */
   background: #ffffff;
-}
-.collab p{
+  color: #0c0c0d;
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
 }
-.collab span{
-  position: static;
-  width: 24px;
-  height: 64px;
-  left: 281px;
-  top: 0px;
-  font-family: "NTR";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 54px;
-  line-height: 64px;
-  margin: 10px 41px;
-}
-.animate{
+.animate img {
   display: flexbox;
   align-items: center;
   justify-content: center;
-}
-
-.animate img{
-  position: absolute;
   height: 303px;
-  width: 95%;
-  align-items: center;
-  top: 162.86px;
+  width: 100%;
+  margin: 32px 0px 32px 0px;
   border-radius: 10px;
 }
-
-.com {
-  position: absolute;
-  top: 252.86px;
-  
-}
-
-.com h1{
+.com h1 {
   font-weight: 700;
-  font-style: normal;
-  font-size: 39px;
+  position: static;
+  font-size: 49px;
   line-height: 48px;
   text-align: center;
 }
-.com h2{
-  font-size: 16px;
+.com p {
+  font-size: 20px;
   font-weight: 600;
-  line-height: 24px;
   text-align: center;
+  letter-spacing: 5%;
+  width: 95%;
+  margin: 30px;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 59px;
+}
+
+.info h3 {
+  margin-top: 82px;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 35px;
+}
+
+.info p {
+  width: 555px;
+  height: 48px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 31px;
+}
+
+
+
+.info img {
+  margin-right: 28px;
+}
+.fram-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.fram-1 img {
+  position: absolute;
+  left: -0.25px;
+}
+.fram-1 p {
+  width: 381px;
+  position: relative;
+  margin: 72px 212px 388px 65%;
+}
+
+.fram-1 p span{
+  text-decoration-line: underline;
+}
+
+.fram-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fram-2 p {
+  width: 529px;
+  text-align: right;
+  margin: 60px 77px 77px 77px;
+}
+
+
+.fram-2 img{
+  width: 50%;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.fram-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fram-3 div{
+  position:absolute;
+  margin: 77px 0px 118px 50%;
+}
+.fram-3 div h3{
+  font-size: 31px;
+  font-weight: 700;
+}
+.fram-3 img{
+  width: 50%;
+}
+
+.fram-3 div p{
+  width: 90%;
+}
+.fram-3 .ignor{
+  font-family:"Noto" ;
+  font-weight: 900;
+}
+.name-collec h3{
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 35px;
+  width: 604px;
+
+}
+.fram-product{
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 27px;
+}
+.fram-product img{
+  width: 100%;
+}
+
+
+.fram-product h1{
+  font-size: 31px;
+  font-weight: 600;
+}
