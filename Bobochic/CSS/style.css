@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=NTR&family=Noto+Serif+KR:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700&family=NTR&family=Noto+Serif+KR:wght@900&display=swap");
 
 * {
   font-family: "Jost", sans-serif;
@@ -11,7 +11,7 @@ main {
   /* Gray/0-default */
   background: #ffffff;
 }
-span{
+span {
   font-weight: 600;
 }
 .premier {
@@ -72,8 +72,6 @@ span{
   margin-bottom: 31px;
 }
 
-
-
 .info img {
   margin-right: 28px;
 }
@@ -94,11 +92,11 @@ span{
   margin: 72px 212px 388px 65%;
 }
 
-.fram-1 p span{
+.fram-1 p span {
   text-decoration-line: underline;
 }
 
-.fram-2{
+.fram-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,58 +108,61 @@ span{
   margin: 60px 77px 77px 77px;
 }
 
-
-.fram-2 img{
+.fram-2 img {
   width: 50%;
   border-radius: 0px 0px 10px 0px;
 }
 
-.fram-3{
+.fram-3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.fram-3 div{
-  position:absolute;
+.fram-3 div {
+  position: absolute;
   margin: 77px 0px 118px 50%;
 }
-.fram-3 div h3{
+.fram-3 div h3 {
   font-size: 31px;
   font-weight: 700;
 }
-.fram-3 img{
+.fram-3 img {
   width: 50%;
 }
 
-.fram-3 div p{
+.fram-3 div p {
   width: 90%;
 }
-.fram-3 .ignor{
-  font-family:"Noto" ;
+.fram-3 .ignor {
+  font-family: "Noto";
   font-weight: 900;
 }
-.name-collec h3{
+.name-collec h3 {
   font-weight: 700;
   font-size: 31px;
   line-height: 35px;
   width: 604px;
-
 }
-.fram-product{
+.fram-product {
   display: flex;
-  flex-direction: row;
-  justify-self: center;
   justify-content: space-between;
   text-align: center;
   margin-top: 27px;
 }
-.fram-product img{
+.fram-product img {
   width: 100%;
 }
 
-
-.fram-product h1{
+.fram-product h1 {
   font-size: 31px;
   font-weight: 600;
+}
+
+.btn-fav {
+  position: absolute;
+  width: 32px;
+  margin-top: 7.8px;
+  margin-left: -45px;
+  margin-bottom: 314px;
 }
