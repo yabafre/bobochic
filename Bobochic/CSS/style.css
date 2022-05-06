@@ -157,6 +157,8 @@ span {
 .fram-product h1 {
   font-size: 31px;
   font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .btn-fav {
@@ -165,4 +167,10 @@ span {
   margin-top: 7.8px;
   margin-left: -45px;
   margin-bottom: 314px;
+}
+.btn-shop {
+  position: absolute;
+  width: 32px;
+  margin-left: 145px;
+  margin-top: -14px;
 }
