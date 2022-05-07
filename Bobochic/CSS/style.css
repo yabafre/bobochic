@@ -5,9 +5,109 @@
   font-size: 16px;
   line-height: 24px;
 }
+header{
+  position: fixed;
+  height: 290px;
+}
 
-main {
+.search-bar{
+  width: 1000vh;
+  background-color: #ffffff;
+}
+
+.bar{
+  position: fixed;
+  left: 1px;
+  right: 0px;
+  background-color: #F9F9F9;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  height: 50%;
+  padding: 0px;
+  background-color: #F9F9F9;
+}
+
+li {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.e1 {
+  margin-right: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+ }
+
+.e1 img {
+  position: relative;
+  top: 7px;
+  margin-right: 7px;
+}
+.e8 img {
+  position: relative;
+  top: 5px;
+  margin-right: 7px;
+}
+
+button {
+  background: none;
+  border: 1px solid #8d8d8e;
+  box-sizing: border-box;
+  border-radius: 99px;
+}
+button p{
+  position:relative;
+  margin-right: 4px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+a:hover{
+  color: #0c0c0d;
+}
+
+
+.e2,
+.e3,
+.e4,
+.e5,
+.e6,
+.e7 {
+  margin-left: auto;
+}
+.e8 {
+  margin-left: 195px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0c0c0d;
+}
+.e2 a{
+  color: #E84D45;
+  font-weight: 600;
+} 
+
+section{
   margin: 77px 77px;
+}
+main{
+  padding-top: 290px;
+}
+
+main,
+nav {
   /* Gray/0-default */
   background: #ffffff;
 }
@@ -80,16 +180,20 @@ span {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-left: 0;
 }
 
 .fram-1 img {
-  position: absolute;
-  left: -0.25px;
+  max-height: 900px;
+  max-width: 1200px;
 }
 .fram-1 p {
-  width: 381px;
-  position: relative;
-  margin: 72px 212px 388px 65%;
+  max-width: 381px;
+  max-height: 168px;
+  align-items: center;
+  font-style: normal;
+  margin: 72px 212px 388px ;
+
 }
 
 .fram-1 p span {
@@ -120,8 +224,8 @@ span {
 }
 
 .fram-3 div {
-  position: absolute;
-  margin: 77px 0px 118px 50%;
+  position: static;
+  margin-left: 10%;
 }
 .fram-3 div h3 {
   font-size: 31px;
@@ -139,6 +243,7 @@ span {
   font-weight: 900;
 }
 .name-collec h3 {
+  margin: 77px 77px;
   font-weight: 700;
   font-size: 31px;
   line-height: 35px;
@@ -149,11 +254,8 @@ span {
   justify-content: space-between;
   text-align: center;
   margin-top: 27px;
-}
-.fram-product img {
-  width: 100%;
-}
-
+  margin-left: 0;
+} 
 .fram-product h1 {
   font-size: 31px;
   font-weight: 600;
@@ -161,16 +263,45 @@ span {
   margin: 0;
 }
 
-.btn-fav {
-  position: absolute;
-  width: 32px;
-  margin-top: 7.8px;
-  margin-left: -45px;
-  margin-bottom: 314px;
+.fram-product p{
+  margin: 5px;
 }
-.btn-shop {
-  position: absolute;
+
+.btn-fav img{
+  position: relative;
   width: 32px;
-  margin-left: 145px;
-  margin-top: -14px;
+  margin-left: 315px;
+  margin-bottom: -48px;
+}
+
+.btn-shop img{
+  width: 32px;
+  position: relative;
+  margin-left: 315px;
+  margin-top: -2px;
+}
+
+.protect {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 184px;
+  margin-top: 80px;
+  position: static;
+  margin: auto;
+  background: #f9f9f9;
+}
+
+.mention h1 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+.mention p {
+  font-weight: 600;
+  font-size: 12px;
+  max-width: 157px;
+  margin-top: 8px;
 }
