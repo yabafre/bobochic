@@ -5,6 +5,24 @@
   font-size: 16px;
   line-height: 24px;
 }
+section {
+  margin: 77px 77px;
+}
+li {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+button {
+  background: none;
+  border: 1px solid #8d8d8e;
+  box-sizing: border-box;
+  border-radius: 99px;
+}
+span {
+  font-weight: 600;
+}
+/*-- --------- header --------- --*/
 header {
   position: fixed;
   display: contents;
@@ -82,11 +100,7 @@ nav ul {
   background-color: #f9f9f9;
 }
 
-li {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-}
+
 .e1 {
   margin-right: 100px;
   font-weight: 600;
@@ -104,12 +118,7 @@ li {
   margin-right: 7px;
 }
 
-button {
-  background: none;
-  border: 1px solid #8d8d8e;
-  box-sizing: border-box;
-  border-radius: 99px;
-}
+
 button p {
   position: relative;
   margin-right: 4px;
@@ -147,9 +156,8 @@ a {
   font-weight: 600;
 }
 
-section {
-  margin: 77px 77px;
-}
+/*-- ---------Main styling --------- --*/
+
 main {
   position: static;
 }
@@ -159,9 +167,9 @@ nav {
   /* Gray/0-default */
   background: #ffffff;
 }
-span {
-  font-weight: 600;
-}
+
+/*-- --------- section premier --------- --*/
+
 .premier {
   margin-bottom: 38px;
 }
@@ -198,6 +206,8 @@ span {
   margin: 30px;
 }
 
+/*-- --------- section info --------- --*/
+
 .info {
   display: flex;
   flex-direction: column;
@@ -223,6 +233,9 @@ span {
 .info img {
   margin-right: 28px;
 }
+
+/*-- --------- section fram-1 --------- --*/
+
 .fram-1 {
   display: flex;
   justify-content: space-between;
@@ -247,6 +260,9 @@ span {
   text-decoration-line: underline;
 }
 
+/*-- --------- section fram-2 --------- --*/
+
+
 .fram-2 {
   display: flex;
   justify-content: space-between;
@@ -263,6 +279,9 @@ span {
   width: 50%;
   border-radius: 0px 0px 10px 0px;
 }
+
+/*-- --------- section fram-3 --------- --*/
+
 
 .fram-3 {
   display: flex;
@@ -289,6 +308,9 @@ span {
   font-family: "Noto";
   font-weight: 900;
 }
+
+/*-- --------- sdiv name --------- --*/
+
 .name-collec h3 {
   margin: 77px 77px;
   font-weight: 700;
@@ -296,6 +318,9 @@ span {
   line-height: 35px;
   width: 604px;
 }
+
+/*-- --------- section product --------- --*/
+
 .fram-product {
   display: flex;
   justify-content: space-between;
@@ -309,6 +334,18 @@ span {
   text-transform: uppercase;
   margin: 0;
 }
+/* .bxslider{
+  display: flex;
+  justify-content: center;
+  box-shadow: red;
+  border: 99px;
+} */
+/* 
+.bxslider li {
+  border: #0c0c0d;
+  border-radius: 7px;
+  box-shadow: deeppink;
+} */
 
 .fram-product p {
   margin: 5px;
@@ -327,6 +364,9 @@ span {
   margin-left: 315px;
   margin-top: -2px;
 }
+
+/*-- --------- section protect --------- --*/
+
 
 .protect {
   display: flex;
@@ -352,10 +392,15 @@ span {
   max-width: 157px;
   margin-top: 8px;
 }
+
+/*-- --------- Footer --------- --*/
+
 footer {
   background: #0c0c0d;
   height: 100%;
 }
+
+/*-- --------- section all-info --------- --*/
 
 .all-info {
   display: flex;
@@ -497,6 +542,8 @@ footer {
 .all-info a {
   color: #ffffff;
 }
+
+/*-- --------- section info paiement --------- --*/
 
 .paiement{
   margin: 0;  
